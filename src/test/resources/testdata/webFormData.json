@@ -1,0 +1,18 @@
+
+[
+  {
+    "testCase": "Valid text input",
+    "inputText": "Selenium Automation",
+    "expectedMessage": "Form submitted"
+  },
+  {
+    "testCase": "Text with numbers",
+    "inputText": "Automation123",
+    "expectedMessage": "Form submitted"
+  },
+  {
+    "testCase": "Text with special characters",
+    "inputText": "Selenium@2026",
+    "expectedMessage": "Form submitted"
+  }
+]
